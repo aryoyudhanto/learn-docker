@@ -1,0 +1,12 @@
+version: "3.8"
+
+services:
+  mongo-env:
+      image: mongo:latest
+      container_name: mongo-env
+      ports:
+        - "27017:27017"
+      environment:
+        MONGO_INITDB_ROOT_USERNAME: yudha
+        MONGO_INITDB_ROOT_PASSWORD: yudha
+        MONGO_INITDB_DATABASE: admin

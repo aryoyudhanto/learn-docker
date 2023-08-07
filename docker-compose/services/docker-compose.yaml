@@ -1,0 +1,10 @@
+version: "3.8"
+
+services:
+  nginx-services:
+    image: nginx:latest
+    container_name: nginx-services
+  mongo-services:
+    image: mongo:latest
+    container_name: mongo-services
+  
